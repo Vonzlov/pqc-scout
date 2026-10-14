@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Инструменты
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Секреты
+.env
+
+# Документы базы знаний скачиваются скриптом scripts/fetch_kb.py
+kb_data/
+
+# Чекпоинты графа
+*.sqlite
+*.sqlite-*
+
+# Результаты локальных прогонов, кроме зафиксированных в eval/results/
+out/
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

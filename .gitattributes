@@ -1,0 +1,2 @@
+# Единые окончания строк (LF) на Windows, macOS и в CI
+* text=auto eol=lf
